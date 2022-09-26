@@ -32,20 +32,20 @@ int main()
   // insertNode(a1, 10);
   // insertNode(a1, 5);
 
-  printf("Resultado: %d\n", searchNodeRec(a1, 50)); // 1
-  // printf("Resultado: %d\n", searchNodeRec(a1, 51)); //0
-  printf("Resultado: %d\n", searchNodeRec(a1, 10));
-  // printf("Resultado: %d\n", searchNodeRec(a1, 11));
-  printf("Resultado: %d\n", searchNodeRec(a1, 99));
-  // printf("Resultado: %d\n", searchNodeRec(a1, 100));
-  printf("Resultado: %d\n", searchNodeRec(a1, 5));
-  printf("Resultado: %d\n", searchNodeRec(a1, 6));
-  // printf("Resultado: %d\n", searchNodeRec(a1, 30));
-  // printf("Resultado: %d\n", searchNodeRec(a1, 31));
-  printf("Resultado: %d\n", searchNodeRec(a1, 25));
-  // printf("Resultado: %d\n", searchNodeRec(a1, 26));
-  printf("Resultado: %d\n", searchNodeRec(a1, 45));
-  // printf("Resultado: %d\n", searchNodeRec(a1, 46));
+  printf("Resultado: %d\n", searchNode(a1, 50));
+  printf("Resultado: %d\n", searchNode(a1, 51));
+  printf("Resultado: %d\n", searchNode(a1, 10));
+  printf("Resultado: %d\n", searchNode(a1, 11));
+  printf("Resultado: %d\n", searchNode(a1, 99));
+  printf("Resultado: %d\n", searchNode(a1, 100));
+  printf("Resultado: %d\n", searchNode(a1, 5));
+  printf("Resultado: %d\n", searchNode(a1, 6));
+  printf("Resultado: %d\n", searchNode(a1, 30));
+  printf("Resultado: %d\n", searchNode(a1, 31));
+  printf("Resultado: %d\n", searchNode(a1, 25));
+  printf("Resultado: %d\n", searchNode(a1, 26));
+  printf("Resultado: %d\n", searchNode(a1, 45));
+  printf("Resultado: %d\n", searchNode(a1, 46));
 
   // percorre_pre_ordem(a1);
   // percorre_em_ordem(a1);
